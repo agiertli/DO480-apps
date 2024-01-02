@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 metadata:
@@ -8,3 +9,13 @@ resources:
  - deployment-frontend.yaml
  - service.yaml
  - service-frontend.yaml
+=======
+kind: Kustomization
+
+resources:
+  - deployment-frontend.yaml
+  - deployment.yaml
+  - service-frontend.yaml
+  - service.yaml
+
+>>>>>>> f181107c4c45fec64b8e549308212d6aa69d746d
